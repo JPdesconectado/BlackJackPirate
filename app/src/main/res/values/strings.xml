@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BlackJack Jhony YEY</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="login">Login</string>
+    <string name="voltar">Voltar</string>
+    <string name="registrar">Registrar</string>
+    <string name="NomeCompleto">Nome Completo</string>
+    <string name="email">Email</string>
+    <string name="mostrar">Exibir Senha</string>
+    <string name="novoJogo">Novo Jogo</string>
+    <string name="regras">Regras</string>
+    <string name="logout">Logout</string>
+    <string name="PontosB">Pontos Adversário</string>
+    <string name="Pontos">Seus Pontos</string>
+    <string name="rodadaJ">Pontos</string>
+    <string name="rodadaB">Pontos</string>
+</resources>
