@@ -1,20 +1,14 @@
 package com.example.blackjackjhony;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
-import android.graphics.Paint;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.RectShape;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+
 
 public class RegisterActivity extends AppCompatActivity {
 
@@ -42,7 +36,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
         public void onClickCadastrar(View v){
-            int error401, error402, error403, error404 = 404;
+            int error401, error402, error403, error404;
 
             if(usuario.getText().toString().equals("")){
                 usuario.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#ff0000")));
@@ -94,8 +88,6 @@ public class RegisterActivity extends AppCompatActivity {
 
                 Intent returnIntent = new Intent();
                 Bundle bundle = new Bundle();
-                String user = usuario.getText().toString();
-                String pass = senha.getText().toString();
                 bundle.putString("nome", usuario.getText().toString());
                 bundle.putString("senha", senha.getText().toString());
                 bundle.putInt("pontoJogador", 0);
